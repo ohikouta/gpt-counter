@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatGPT Prompt Counts</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 10px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background-color: #f2f2f2; }
+        button { margin-top: 10px; padding: 5px 10px; }
+    </style>
+</head>
+<body>
+    <h2>Prompt Counts per Model</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Model</th>
+                <th>Count</th>
+                <th>Last Reset</th>
+            </tr>
+        </thead>
+        <tbody id="countsTable">
+            <!-- データがここに挿入されます -->
+        </tbody>
+    </table>
+    <button id="resetButton">Reset Counts</button>
+    <script src="popup.js"></script>
+</body>
+</html>
